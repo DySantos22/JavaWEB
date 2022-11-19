@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html,
+body, main{
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+  background-color: white;
+}
+main{
+  /*Impede que o usuario copie */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
